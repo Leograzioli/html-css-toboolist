@@ -2,8 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #444851;
 }
 
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #f6f8f9;
+}
 
 /* header  */
 header {
@@ -24,8 +32,120 @@ header {
     font-weight: bold;
 }
 
-/* main  */
+.container { 
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 2px;
+    margin-top: 40px;
+}
 
-main {
-    background-color: #f6f8f9;
+
+/* nav  */
+.bt-right {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    padding: 8px;
+    background-color: #47adf1;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+.bt-left {
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ced3d7 ;
+    color: #ced3d7;
+}
+
+/* lists  */
+.container-list {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0 0 5px 5px; 
+    padding-bottom: 20px;
+}
+
+.list {
+    padding-top: 40px;
+    margin-left: 70px;
+}
+
+.green-circle {
+    display: inline-block;
+    color: #8fd2c2;
+    border: 1px solid #8fd2c2;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-weight: bold;   
+    font-size: 0.8rem;
+}
+
+.red-circle {
+    display: inline-block;
+    color: #eb4e44;
+    border: 1px solid #eb4e44;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-weight: bold;  
+    font-size: 0.6rem;
+}
+
+.list-txt {
+    font-size: 1.2rem;
+}
+
+.button-txt {
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.8rem;
+    border: 0;
+}
+
+.mg-list {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+
+.list h2 {
+    margin-bottom: 10px;
+}
+
+/* colors */
+
+.purple{
+    background-color: #9c72e4;
+}
+
+.blue {
+    background-color: #47adf1;
+}
+
+.green {
+    background-color: #64c0a9;
+}
+
+.orange {
+    background-color: #f29e33;
+}
+
+.pink {
+    background-color: #d863a1;
+}
+
+.lime {
+    background-color: #b0c926;
 }
